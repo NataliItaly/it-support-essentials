@@ -1,0 +1,177 @@
+:root {
+  --background: #b3e79e70;
+  --main-color: rgb(21, 116, 57);
+  --secondary-color: rgb(217 88 27);
+  --terziary-color: #0c9f2b;
+  --important-color: #a0eba9;
+  --important-word: #bf5f0c;
+  --border: 3px solid rgb(21, 116, 57);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  padding: 0 0 40px;
+  background-color: beige;
+}
+
+main {
+  padding-top: 30px;
+}
+
+a {
+  color: var(--secondary-color);
+}
+
+ul,
+ol {
+  padding-left: 40px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+h1 {
+  padding: 25px 0 10px;
+}
+
+h1 {
+  color: #623322;
+}
+
+h2 {
+  color: var(--secondary-color);
+}
+
+h4 {
+  font-size: 20px;
+  color: var(--terziary-color);
+}
+
+h4,
+h5 {
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+h5,
+h6 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+img {
+  display: block;
+  width: 50%;
+  min-width: 290px;
+  height: auto;
+  margin: 15px auto;
+}
+
+video {
+  margin: 10px 0 20px;
+}
+
+b {
+  color: var(--important-word);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background-color: #f1ebe2;
+  padding: 0 0 20px;
+}
+
+.header__top {
+  margin-bottom: 20px;
+  font-size: 24px;
+  background: var(--main-color);
+}
+
+.header__title {
+  color: antiquewhite;
+  padding: 30px;
+}
+
+.header__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: none;
+}
+
+.header__list {
+  list-style-type: none;
+}
+
+.header__link {
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__link_active {
+  color: var(--main-color);
+  pointer-events: none;
+}
+
+.article {
+  padding: 20px 0;
+}
+
+.article__part {
+  padding: 10px 0;
+}
+
+.article__title {
+  margin-bottom: 10px;
+  font-size: 24px;
+  background: var(--main-color);
+  color: antiquewhite;
+  padding: 10px;
+}
+
+.number-list {
+  padding-left: 40px;
+}
+
+.important {
+  background-color: var(--important-color);
+  padding: 20px;
+  margin: 5px;
+}
+
+ul.important,
+ol.important {
+  padding-left: 40px;
+}
+
+.important_word {
+  font-size: 24px;
+}
+
+.image_small {
+  min-width: unset;
+  max-width: 200px;
+}
+
+.image_medium {
+  min-width: unset;
+  max-width: 350px;
+}
